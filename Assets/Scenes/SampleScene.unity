@@ -394,3 +394,141 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+--- !u!1001 &1869139261
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -5761197787609126072, guid: ea5377aa7d6484057acd55f71c3254ce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9978498
+      objectReference: {fileID: 0}
+    - target: {fileID: -5761197787609126072, guid: ea5377aa7d6484057acd55f71c3254ce, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5761197787609126072, guid: ea5377aa7d6484057acd55f71c3254ce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5761197787609126072, guid: ea5377aa7d6484057acd55f71c3254ce, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.065541305
+      objectReference: {fileID: 0}
+    - target: {fileID: -5761197787609126072, guid: ea5377aa7d6484057acd55f71c3254ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 7.516
+      objectReference: {fileID: 0}
+    - target: {fileID: -1445676670486994223, guid: ea5377aa7d6484057acd55f71c3254ce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9753575
+      objectReference: {fileID: 0}
+    - target: {fileID: -1445676670486994223, guid: ea5377aa7d6484057acd55f71c3254ce, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1445676670486994223, guid: ea5377aa7d6484057acd55f71c3254ce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1445676670486994223, guid: ea5377aa7d6484057acd55f71c3254ce, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.22063065
+      objectReference: {fileID: 0}
+    - target: {fileID: -1445676670486994223, guid: ea5377aa7d6484057acd55f71c3254ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 25.492
+      objectReference: {fileID: 0}
+    - target: {fileID: -1040452472105300808, guid: ea5377aa7d6484057acd55f71c3254ce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9991836
+      objectReference: {fileID: 0}
+    - target: {fileID: -1040452472105300808, guid: ea5377aa7d6484057acd55f71c3254ce, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1040452472105300808, guid: ea5377aa7d6484057acd55f71c3254ce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1040452472105300808, guid: ea5377aa7d6484057acd55f71c3254ce, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.040401224
+      objectReference: {fileID: 0}
+    - target: {fileID: -1040452472105300808, guid: ea5377aa7d6484057acd55f71c3254ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 4.631
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972094095462991209, guid: ea5377aa7d6484057acd55f71c3254ce, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972094095462991209, guid: ea5377aa7d6484057acd55f71c3254ce, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972094095462991209, guid: ea5377aa7d6484057acd55f71c3254ce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972094095462991209, guid: ea5377aa7d6484057acd55f71c3254ce, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.916
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972094095462991209, guid: ea5377aa7d6484057acd55f71c3254ce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972094095462991209, guid: ea5377aa7d6484057acd55f71c3254ce, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972094095462991209, guid: ea5377aa7d6484057acd55f71c3254ce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972094095462991209, guid: ea5377aa7d6484057acd55f71c3254ce, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972094095462991209, guid: ea5377aa7d6484057acd55f71c3254ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972094095462991209, guid: ea5377aa7d6484057acd55f71c3254ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972094095462991209, guid: ea5377aa7d6484057acd55f71c3254ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5850544264817320057, guid: ea5377aa7d6484057acd55f71c3254ce, type: 3}
+      propertyPath: m_Name
+      value: Koi-Fish
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 4469933780406812999, guid: ea5377aa7d6484057acd55f71c3254ce, type: 3}
+--- !u!1 &1869139262 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5850544264817320057, guid: ea5377aa7d6484057acd55f71c3254ce, type: 3}
+  m_PrefabInstance: {fileID: 1869139261}
+  m_PrefabAsset: {fileID: 0}
+--- !u!111 &1869139264
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869139262}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: f7b0710205a3e43569b45a2d6baae679, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: f7b0710205a3e43569b45a2d6baae679, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
