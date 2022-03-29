@@ -299,7 +299,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -396.29492, y: 158.71088}
+  m_AnchoredPosition: {x: -282, y: 99.1}
   m_SizeDelta: {x: 295.4102, y: 90.5782}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &434251163
@@ -632,6 +632,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Koi-Fish (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6817121997758490068, guid: 3a45ac8a26f54e14badcad0a850e2e83, type: 3}
+      propertyPath: startForce.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6817121997758490074, guid: 3a45ac8a26f54e14badcad0a850e2e83, type: 3}
       propertyPath: m_Center.x
       value: 0.5
@@ -919,16 +923,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1094640483}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
 --- !u!114 &1094640485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1391,8 +1404,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6755f93700004dc4aba6f24780f4ae8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cursor: {fileID: 2800000, guid: e2db3582d8623524084f6e32f32b94e9, type: 3}
-  cursorClicked: {fileID: 2800000, guid: f6e943aba8671f24e92c623ab30f11de, type: 3}
+  cursor: {fileID: 2800000, guid: 8840a8367c1c8df4e9634ce6fa3f404d, type: 3}
+  cursorClicked: {fileID: 2800000, guid: 08356caaca592674881f332da0a46cf6, type: 3}
 --- !u!4 &1746209193
 Transform:
   m_ObjectHideFlags: 0
@@ -1523,6 +1536,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Koi-Fish
       objectReference: {fileID: 0}
+    - target: {fileID: 1128722714086894054, guid: 3a45ac8a26f54e14badcad0a850e2e83, type: 3}
+      propertyPath: m_TagString
+      value: Fish
+      objectReference: {fileID: 0}
+    - target: {fileID: 6817121997758490068, guid: 3a45ac8a26f54e14badcad0a850e2e83, type: 3}
+      propertyPath: startForce.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6817121997758490074, guid: 3a45ac8a26f54e14badcad0a850e2e83, type: 3}
       propertyPath: m_Center.x
       value: 0.5
@@ -1541,7 +1562,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8621498838683307254, guid: 3a45ac8a26f54e14badcad0a850e2e83, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.33023885
+      value: 0.301
       objectReference: {fileID: 0}
     - target: {fileID: 8621498838683307254, guid: 3a45ac8a26f54e14badcad0a850e2e83, type: 3}
       propertyPath: m_LocalPosition.y
