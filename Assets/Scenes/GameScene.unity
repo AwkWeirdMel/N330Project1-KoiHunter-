@@ -1525,6 +1525,18 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1128722714086894054, guid: 3a45ac8a26f54e14badcad0a850e2e83, type: 3}
   m_PrefabInstance: {fileID: 6817121998457540189}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5850544264219486144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5850544264219486139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef1f9e82e5f1c0a47a898a3bf400e0e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6817121998457540189
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1545,12 +1557,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6817121997758490074, guid: 3a45ac8a26f54e14badcad0a850e2e83, type: 3}
+      propertyPath: m_Radius
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 6817121997758490074, guid: 3a45ac8a26f54e14badcad0a850e2e83, type: 3}
       propertyPath: m_Center.x
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6817121997758490074, guid: 3a45ac8a26f54e14badcad0a850e2e83, type: 3}
       propertyPath: m_Center.y
       value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6817121997758490074, guid: 3a45ac8a26f54e14badcad0a850e2e83, type: 3}
+      propertyPath: m_Center.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6817121997758490075, guid: 3a45ac8a26f54e14badcad0a850e2e83, type: 3}
       propertyPath: m_AnimatePhysics
